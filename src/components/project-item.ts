@@ -1,7 +1,7 @@
-import Component from "./base-component.js";
-import { Autobind } from "../decorators/Autobind.js";
-import { Draggable } from "../models/drag-drop.js";
-import { Project } from "../models/project.js";
+import Component from "./base-component";
+import { Autobind } from "../decorators/Autobind";
+import { Draggable } from "../models/drag-drop";
+import { Project } from "../models/project";
 
 export class ProjectItem extends Component<HTMLUListElement, HTMLLIElement> implements Draggable {
     private project: Project;
